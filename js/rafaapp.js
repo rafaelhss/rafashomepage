@@ -69,6 +69,6 @@ function getIntroText() {
 function getInfo() {
     var info = [];
     info.greeting = "hi, i'm";
-    info.description = "Software Archtect and Developer";
+    info.description = "Software Architect and Developer";
     return info;
 }
