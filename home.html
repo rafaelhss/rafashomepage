@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="rafaApp">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <script src='http://popmotion.io/assets/js/popmotion.global.min.3.1.2.js'></script>
+
+
+    <style>
+        body {
+            background-color: #ffffff;
+            color: #333333;
+            font-family: "Lucida Console", Monaco, monospace;
+            font-weight: bold;
+        }
+        
+        a {
+            color: #333333;
+        }
+        
+        .top-buffer {
+            margin-top: 20px;
+        }
+        
+        .myheader {
+            background-color: #333333;
+            color: #fff;
+            padding: 140px 0px;
+        }
+        
+        .name {
+            text-shadow: 1px 1px #990077;
+        }
+        
+        .session {
+            padding: 50px;
+        }
+
+        .thing {
+            padding: 10px;
+        }
+    </style>
+
+    <title>Rafael Henrique Santos Soares</title>
+
+</head>
+
+<body ng-controller="rafaCtrl">
+
+    <div class="jumbotron myheader text-center">
+        <h4>{{info.greeting}}</h4>
+        <h2 class="name">RAFAEL HENRIQUE</h2>
+        <h2>{{info.description}}</h2>
+    </div>
+    <div class="container">
+        <div class="row session">
+            <div class="col-md-12 text-center">
+                <h5>{{introText}}</h5>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12 thing" ng-repeat="thing in things">
+                <div class="media">
+                    <a class="pull-left" href="{{thing.href}}" target="_blank">
+                        <i class="fa fa-3x {{thing.icon}}"></i>
+                    </a>
+                    <div class="media-body">
+                        <h3 class="media-heading">{{thing.title}}</h3>
+                        <p> {{thing.text}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h5>{{contactText}}</h5>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="text-center">
+                <a href="https://br.linkedin.com/in/rafaelhss">
+                    <i class="fa fa-2x fa fa-linkedin-square "></i>
+                </a>
+                <a href="http://lattes.cnpq.br/6843629399401350">
+                    <i class="fa fa-2x fa-graduation-cap "></i>
+                </a>
+                <a href="mailto:rafaelhss@yahoo.com.br">
+                    <i class="fa fa-2x fa-at "></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+<!--
+    <div class="col">
+        <div class="pessoal" id="pess">
+            <a href="pessoal.html"><i class="fa fa-user-secret"></i></i></a>
+            </span>
+        </div>
+    </div>
+-->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+
+    <script src="js/rafaapp.js"></script>
+
+    <!-- <script src="js/anim.js"></script> -->
+
+</body>
+
+</html>

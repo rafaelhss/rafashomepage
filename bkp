@@ -1,0 +1,72 @@
+<p>
+<h4>rafael henrique santos soares</h4> <br/>
+<em>coordenador</em> no Banco central do Brasil<br/>
+<em>professor</em> no Centro Universitário de Brasilia<br/>
+<em>pesquisador</em> no Grupo de pesquisa em Inteligência Cooperativa em Redes Sociais Complexas da UnB.<br/>
+</p>
+
+<div class="container-fluid">
+    <p>  <a href="https://br.linkedin.com/in/rafaelhss" class="btn btn-default">
+            <i class="fa fa-3x fa-linkedin-square "></i>
+         </a>
+         <a href="http://lattes.cnpq.br/6843629399401350" class="btn btn-default">
+            <i class="fa fa-3x fa-graduation-cap "></i>
+         </a>
+         <a href="mailto:rafaelhss@yahoo.com.br" class="btn btn-default">
+            <i class="fa fa-3x fa-at "></i>
+         </a>
+
+         <a href="http://rafaelhenrique.net/blog" class="btn btn-default">
+             <i class="fa fa-3x fa-rss "></i>
+         </a>
+         <a href="http://rafaelhenrique.net/Aulas" class="btn btn-default">
+             <i class="fa fa-3x fa-files-o "></i>
+         </a>
+</p>
+
+<p>
+
+</p>
+</div>   
+
+  <div class="container">
+        <div class="row">
+            <div class="col-xs-3 col-xs-offset-2 col-md-offset-1 col-md-2 top-buffer">
+                <a href="https://br.linkedin.com/in/rafaelhss" class="btn btn-default">
+                    <i class="fa fa-3x fa fa-linkedin-square "></i>
+                </a>
+            </div>
+            <div class="col-xs-3 col-xs-offset-2 col-md-offset-1 col-md-2 top-buffer">
+                <a href="http://lattes.cnpq.br/6843629399401350" class="btn btn-default">
+                    <i class="fa fa-3x fa-graduation-cap "></i>
+                </a>
+            </div>
+            <div class="col-xs-3 col-xs-offset-2 col-md-offset-1 col-md-2 top-buffer">
+                <a href="http://rafaelhenrique.net/blog" class="btn btn-default">
+                    <i class="fa fa-3x fa-rss "></i>
+                </a>
+            </div>
+            <div class="col-xs-3 col-xs-offset-2 col-md-offset-1 col-md-2 top-buffer">
+                <a href="http://rafaelhenrique.net/Aulas" class="btn btn-default">
+                    <i class="fa fa-3x fa-files-o "></i>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+           <div class="col-md-3 col-md-offset-3 col-xs-8 col-xs-offset-2 top-buffer">
+                <a href="http://text2.net" class="btn btn-default">
+                    <b>TEXT<font color="red">2.</font>NET</b>
+                </a>
+            </div>
+            <div class="col-md-3 col-md-offset-3 col-xs-8 col-xs-offset-2 top-buffer">
+                <a href="http://rafaelhenrique.net/zap2net" class="btn btn-default">
+                    <b><i class="fa fa-whatsapp"></i><font color="red">2.</font>NET</b>
+                </a>
+            </div>
+        </div>
+        <div class="footer">
+            <a href="mailto:rafaelhss@yahoo.com.br" class="btn btn-default">
+                <i class="fa fa-3x fa-at "></i>
+            </a>
+        </div>
+    </div>
