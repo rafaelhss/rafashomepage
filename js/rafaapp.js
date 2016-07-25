@@ -9,11 +9,15 @@ app.controller("rafaCtrl", function ($scope) {
 
 
 });
-function getContactText(){
+function getContactText() {
     return "get in touch..."
 }
 function getThings() {
     var things = [];
+
+    things.push(getThing("I like programming",
+        "I started with HTML in 1998 for fun. In college we learned C, C++ and Java (Some Prolog and Fortran too, but I already forgot them). Professionally, I've deployed Delphi, C# and Javascript solutions. Nowadays we use Java and Natural at BCB and I teach HTML5/CSS3/AngularJS and Java Web at UniCEUB.",
+        "fa-terminal", "#"));
 
     things.push(getThing("I work at Central Bank of Brazil",
         "I coordinate the Software Integration and Reuse Team. We use Java and Natural/Adabas to connect financial institutions to the Brazilian Payments System",
@@ -27,7 +31,7 @@ function getThings() {
         "I am a member of the Research Group on Cooperative Inteligence in Complex Social Networks",
         "fa-flask", "http://dgp.cnpq.br/dgp/espelhogrupo/2334079961242970"));
 
-  things.push(getThing("Whatsapp text to net",
+    things.push(getThing("Whatsapp text to net",
         "Email a group chat history to zap@text2.net and get SNA metrics.",
         "fa-whatsapp", ""));
 
@@ -36,14 +40,11 @@ function getThings() {
         "fa-share-alt", "http://text2.net"));
 
 
-    things.push(getThing("I like programming",
-        "I started with HTML in 1998 for fun. In college we learned C, C++ and Java (Some Prolog and Fortran too, but I already forgot them). Professionally, I've deployed Delphi, C# and Javascript solutions. Nowadays we use Java and Natural at BCB and I teach HTML5/CSS3/AngularJS and Java Web at UniCEUB.",
-        "fa-terminal", "#"));
 
     things.push(getThing("I like learning",
         "I am MSc in Information Science (2014), Bachelor in Management (2005) and Bachelor in Information Systems (2004).",
         "fa-graduation-cap", "#"));
-    
+
     things.push(getThing("Published paper at 5th BraSNAM",
         "Formal Information Flows Among Top Authorities of the Brazilian Federal Government based on Co-word Analysis of Data Published in the Official Gazette",
         "fa-newspaper-o", "http://ebooks.pucrs.br/edipucrs/anais/csbc/assets/2016/brasnam/11.pdf"));
